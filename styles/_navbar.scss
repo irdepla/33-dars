@@ -1,5 +1,6 @@
 .nav{
     background: #1C1814;
+    padding: 32px;
 
 
     &__wrapper{
@@ -8,5 +9,52 @@
         align-items: center;
     }
 
+
+
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 48px;
+
+
+        .home__list__item{
+            a{
+                color: #C99E71;
+            }
+        }
+
+
+
+        &__item{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: $white-text;
+            }
+        }
+    }
+
+
+
+    &__shopping{
+        display: flex;
+        align-items: center;
+        gap: 48px;
+
+        .shopping__list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 48px;
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                span{
+                    color: $white-text;
+                }
+            }
+        }
+    }
 
 }
